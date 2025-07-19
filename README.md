@@ -1,8 +1,54 @@
 <div align="center">
-  <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.herokuapp.com?font=Poppins&size=35&pause=1000&color=2E65F3&center=true&vCenter=true&width=500&lines=Kamlendu+Kumar;Front-End+%26+Full-Stack+Developer" alt="Typing SVG" /></a>
+  <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.herokuapp.com?font=Poppins&size=35&pause=1000&color=A0DAFB&center=true&vCenter=true&width=500&lines=Kamlendu+Kumar;Front-End+%26+Full-Stack+Developer" alt="Typing SVG" /></a>
 </div>
 
 <br>
+
+<style>
+  body {
+    background-color: #0D1117;
+    color: #C9D1D9;
+  }
+  h3 {
+    color: #F0F6FC;
+  }
+  a {
+    color: #58A6FF;
+    text-decoration: none;
+  }
+  a:hover {
+    text-decoration: underline;
+  }
+  table {
+    width: 100%;
+  }
+  td {
+    padding: 15px;
+    border-bottom: 1px solid #21262D;
+  }
+  img {
+    max-width: 100%;
+    border-radius: 8px;
+  }
+  .tech-stack img {
+    margin: 5px;
+  }
+  .live-demo {
+    background-color: #238636;
+    color: white !important;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+  }
+  .live-demo:hover {
+    background-color: #2EA043;
+    text-decoration: none;
+  }
+  ul {
+    list-style-type: square;
+    padding-left: 20px;
+  }
+</style>
 
 <table>
   <tr>
@@ -14,7 +60,7 @@
     </td>
     <td valign="top" width="40%">
       <h3>🛠️ Core Tech Stack</h3>
-      <p align="center">
+      <p align="center" class="tech-stack">
         <a href="#"><img src="https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white"></a>
         <a href="#"><img src="https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white"></a>
         <a href="#"><img src="https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E"></a>
@@ -54,7 +100,7 @@
         <li>Foundation for a **Data-Driven User Dashboard**.</li>
       </ul>
       <p align="center">
-        <a href="https://satwik-singh-oss.github.io/My-Portfolio-Showcase/EZScope3-Showcase/" target="_blank"><b>🔴 Live Demo</b></a>
+        <a href="https://satwik-singh-oss.github.io/My-Portfolio-Showcase/EZScope3-Showcase/" target="_blank" class="live-demo">🔴 Live Demo</a>
       </p>
     </td>
   </tr>
@@ -81,7 +127,7 @@
         <li>Scroll-Based Animations with IntersectionObserver API.</li>
       </ul>
       <p align="center">
-        <a href="https://satwik-singh-oss.github.io/My-Portfolio-Showcase/aum-foundation-project/" target="_blank"><b>🔴 Live Demo</b></a>
+        <a href="https://satwik-singh-oss.github.io/My-Portfolio-Showcase/aum-foundation-project/" target="_blank" class="live-demo">🔴 Live Demo</a>
       </p>
     </td>
   </tr>
@@ -108,7 +154,7 @@
         <li>Advanced Magnetic & 3D Tilt Hover Effects.</li>
       </ul>
       <p align="center">
-        <a href="https://satwik-singh-oss.github.io/My-Portfolio-Showcase/BFF-Showcase/" target="_blank"><b>🔴 Live Demo</b></a>
+        <a href="https://satwik-singh-oss.github.io/My-Portfolio-Showcase/BFF-Showcase/" target="_blank" class="live-demo">🔴 Live Demo</a>
       </p>
     </td>
   </tr>
