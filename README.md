@@ -1,10 +1,10 @@
 <div align="center">
-  <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.herokuapp.com?font=Poppins&size=35&pause=1000&color=2E65F3&center=true&vCenter=true&width=500&lines=Kamlendu+Kumar;Front-End+%26+Full-Stack+Developer" alt="Typing SVG" /></a>
+  <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.herokuapp.com?font=Poppins&size=35&pause=1000&color=F0F6FC&center=true&vCenter=true&width=500&lines=Kamlendu+Kumar;Front-End+%26+Full-Stack+Developer" alt="Typing SVG" /></a>
 </div>
 
 <br>
 
-<table>
+<table width="100%">
   <tr>
     <td valign="top" width="60%">
       <h3 align="left">👨‍💻 About Me</h3>
@@ -27,7 +27,7 @@
   </tr>
 </table>
 
-<h2 align="center" style="border-bottom: 2px solid #dddddd; padding-bottom: 10px;">🚀 Projects Showcase</h2>
+<h2 align="center" style="border-bottom: 2px solid #30363d; padding-bottom: 10px;">🚀 Projects Showcase</h2>
 
 <p align="center">
   <i>Click on any project card to see the live demo.</i>
@@ -49,6 +49,6 @@
 
 <div align="center">
   <h3>🌐 Get in Touch</h3>
-  <a href="mailto:your-email@example.com"><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" /></a>
-  <a href="https://www.linkedin.com/in/your-linkedin-profile/"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
+  <a href="mailto:kamlendukumar782@gmail.com"><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" /></a>
+  <a href="https://www.linkedin.com/in/kamlendu-kumar-3b2373140/"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
 </div>
