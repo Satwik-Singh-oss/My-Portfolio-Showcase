@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kamlendu Kumar | Creative Developer Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Header -->
+    <header class="portfolio-header">
+        <div class="header-container">
+            <div class="logo">Kamlendu Kumar</div>
+            <nav>
+                <a href="#vcvx-portfolio-nodes">Projects</a>
+                <a href="#vcvx-ai-core-wrapper-final">Skills</a>
+                <a href="#vcvx-cta-wrapper-hyperspace">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="vcvx-hero-wrapper">
+        <div class="hero-v3-container">
+            <div id="three-canvas"></div>
+            <div class="hero-v3-content">
+                <h1 class="heading-line"><span>Digital Experiences</span></h1>
+                <h1 class="heading-line"><span>That Inspire & Perform.</span></h1>
+                <p>
+                    A passionate developer specializing in building high-performance, visually stunning web applications and user-centric digital solutions.
+                </p>
+                <a href="#vcvx-mission-reimagined" class="cta-v3">Discover My Approach</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Mission Section -->
+    <section id="vcvx-mission-reimagined">
+        <div class="mission-container-reimagined">
+            <div class="mission-trigger-icon">
+                <svg class="rocket-svg" viewBox="0 0 150 220" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                  <defs>
+                    <linearGradient id="rocketBodyGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+                      <stop offset="0%" style="stop-color:#B0BEC5; stop-opacity:1" />
+                      <stop offset="50%" style="stop-color:#ECEFF1; stop-opacity:1" />
+                      <stop offset="100%" style="stop-color:#B0BEC5; stop-opacity:1" />
+                    </linearGradient>
+                    <linearGradient id="finGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+                      <stop offset="0%" style="stop-color:#d32f2f; stop-opacity:1" />
+                      <stop offset="100%" style="stop-color:#c62828; stop-opacity:1" />
+                    </linearGradient>
+                    <radialGradient id="windowGradient">
+                      <stop offset="10%" stop-color="#E1F5FE" />
+                      <stop offset="95%" stop-color="#4FC3F7" />
+                    </radialGradient>
+                    <filter id="glow">
+                      <feGaussianBlur stdDeviation="2.5" result="coloredBlur"/>
+                      <feMerge>
+                        <feMergeNode in="coloredBlur"/>
+                        <feMergeNode in="SourceGraphic"/>
+                      </feMerge>
+                    </filter>
+                  </defs>
+                  <g class="rocket-flame" transform="translate(0, 20)">
+                      <path d="M55 200 C 50 230, 100 230, 95 200 Q 75 240, 55 200 Z" fill="#FFC107" filter="url(#glow)"/>
+                      <path d="M65 200 C 60 220, 90 220, 85 200 Q 75 230, 65 200 Z" fill="#FF5722" filter="url(#glow)"/>
+                  </g>
+                  <path d="M 95,130 C 135,140 135,180 95,190 L 95,130 Z" fill="url(#finGradient)" stroke="#b71c1c" stroke-width="2"/>
+                  <path d="M 55,130 C 15,140 15,180 55,190 L 55,130 Z" fill="url(#finGradient)" stroke="#b71c1c" stroke-width="2"/>
+                  <path d="M55,180 L55,80 Q75,10, 95,80 L95,180 Z" fill="url(#rocketBodyGradient)" stroke="#546E7A" stroke-width="2"/>
+                  <path d="M55,80 C 55,50 95,50 95,80 Q 75,10, 55,80 Z" fill="#d32f2f" stroke="#b71c1c" stroke-width="2"/>
+                  <circle cx="75" cy="110" r="18" fill="url(#windowGradient)" stroke="#546E7A" stroke-width="2"/>
+                  <circle cx="75" cy="110" r="14" fill="none" stroke="#B0BEC5" stroke-width="1.5" opacity="0.5"/>
+                </svg>
+                <h4 class="prompt-text">Launch Mission</h4>
+            </div>
+            <div class="mission-text-container-reimagined">
+                <div class="accent-line-dark"></div>
+                <div class="line-wrapper-dark h2-wrapper">
+                    <h2><span>My Mission</span></h2>
+                </div>
+                <div class="line-wrapper-dark p-wrapper">
+                    <p>
+                        <span>My goal is to leverage cutting-edge technology to build intuitive, efficient, and impactful digital products that solve real-world challenges and deliver exceptional user experiences.</span>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ======================================= -->
+    <!-- ===== WHAT I BUILD SECTION (UPDATED) ===== -->
+    <!-- ======================================= -->
+    <section id="vcvx-ai-core-wrapper-final">
+        <!-- New Canvas for Data Waves effect -->
+        <canvas id="data-waves-canvas"></canvas>
+        <div class="ai-core-container-final">
+            <div class="ai-core-heading-final">
+                <h2>What I Build</h2>
+                <p>I specialize in the complete development lifecycle of web applications, from designing scalable architecture to deploying high-quality, pixel-perfect code.</p>
+            </div>
+            <div class="features-grid-container-final">
+                <div class="feature-grid-item-final">
+                    <div class="icon-wrapper-grid-final"><svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4"></path></svg></div>
+                    <h3>SaaS Platform Development</h3>
+                </div>
+                <div class="feature-grid-item-final">
+                    <div class="icon-wrapper-grid-final"><svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 12l3-3 3 3 4-4M8 21l4-4 4 4M3 4h18M4 4h16v12a2 2 0 01-2 2H6a2 2 0 01-2-2V4z"></path></svg></div>
+                    <h3>Interactive Frontend UI/UX</h3>
+                </div>
+                <div class="feature-grid-item-final">
+                    <div class="icon-wrapper-grid-final"><svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 5a1 1 0 011-1h14a1 1 0 011 1v2a1 1 0 01-1 1H5a1 1 0 01-1-1V5zM4 13a1 1 0 011-1h6a1 1 0 011 1v6a1 1 0 01-1 1H5a1 1 0 01-1-1v-6zM16 13a1 1 0 011-1h2a1 1 0 011 1v6a1 1 0 01-1 1h-2a1 1 0 01-1-1v-6z"></path></svg></div>
+                    <h3>API & Backend Integration</h3>
+                </div>
+                <div class="feature-grid-item-final">
+                    <div class="icon-wrapper-grid-final"><svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path></svg></div>
+                    <h3>Performance Optimization</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="vcvx-portfolio-nodes">
+        <div class="portfolio-container-new">
+            <div class="portfolio-heading-new">
+                <h2>Our Portfolio</h2>
+                <p>Tap a card to learn more</p>
+            </div>
+            <div class="portfolio-grid-new">
+                <div class="portfolio-card-new" data-title="Project Alpha" data-description="An enterprise SaaS platform for data analytics and visualization. Built with React, Node.js, and D3.js for high-performance data handling and interactive dashboards.">
+                    <div class="card-icon-new"><svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z"></path></svg></div>
+                    <h3>Project Alpha</h3>
+                </div>
+                <div class="portfolio-card-new" data-title="Project Beta" data-description="A high-traffic e-commerce site with a custom backend, featuring a robust inventory management system and secure payment gateway integration using Stripe.">
+                    <div class="card-icon-new"><svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4z"></path></svg></div>
+                    <h3>Project Beta</h3>
+                </div>
+                <div class="portfolio-card-new" data-title="Project Gamma" data-description="An interactive landing page with complex GSAP animations and a seamless user experience, designed to maximize engagement and conversion rates.">
+                    <div class="card-icon-new"><svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 4v16M17 4v16M3 8h4m10 0h4M3 12h18M3 16h4m10 0h4M4 20h16a1 1 0 001-1V5a1 1 0 00-1-1H4a1 1 0 00-1 1v14a1 1 0 001 1z"></path></svg></div>
+                    <h3>Project Gamma</h3>
+                </div>
+                <div class="portfolio-card-new" data-title="Project Delta" data-description="A web application for real-time collaboration and project management, built with Firebase for live data synchronization and a seamless multi-user experience.">
+                    <div class="card-icon-new"><svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"></path></svg></div>
+                    <h3>Project Delta</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Section -->
+    <section id="vcvx-matters-wrapper-final">
+        <div class="matters-container-final">
+            <div id="node-1" class="matters-node matters-text-content">
+                <div class="accent-line-light"></div>
+                <h2>The 'Why' Behind My Code</h2>
+                <p>I believe great software is born from a passion for problem-solving and a deep commitment to quality. My focus is on creating solutions that are not just robust and scalable, but also a genuine pleasure to use.</p>
+            </div>
+            <div id="node-2" class="matters-node matters-quote-content">
+                <blockquote>
+                    “Good code is its own best documentation.”
+                </blockquote>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section id="vcvx-cta-wrapper-hyperspace">
+        <canvas id="hyperspace-canvas"></canvas>
+        <div class="cta-container-hyperspace">
+            <h2>Let’s Build Something Great</h2>
+            <p>I'm currently available for freelance projects and full-time opportunities. If you have an exciting idea or a challenging role, let's talk.</p>
+            <a href="mailto:your-email@example.com" class="cta-button-hyperspace">Get In Touch</a>
+        </div>
+    </section>
+    
+    <!-- Footer Section -->
+    <footer class="portfolio-footer">
+        <div id="footer-vanta-bg"></div>
+        <div class="footer-glass-content">
+            <div class="footer-top">
+                <h3>Kamlendu Kumar</h3>
+                <p>Creative Developer focused on building beautiful and functional web experiences.</p>
+            </div>
+            <div class="footer-links">
+                <div class="social-links">
+                    <a href="https://github.com/Satwik-Singh-oss/My-Portfolio-Showcase" target="_blank" title="GitHub" class="social-icon">
+                        <svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" fill="currentColor"><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg>
+                    </a>
+                    <a href="https://linkedin.com/in/kamlendu-kumar-3b2373140" target="_blank" title="LinkedIn" class="social-icon">
+                        <svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 0 1-2.063-2.065 2.064 2.064 0 1 1 2.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.225 0z"/></svg>
+                    </a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>© 2025 – Crafted with passion by Kamlendu Kumar.</p>
+            </div>
+        </div>
+    </footer>
+    
+    <!-- Portfolio Modal -->
+    <div id="portfolio-modal" class="portfolio-modal-overlay">
+        <div class="portfolio-modal-content">
+            <button id="modal-close-btn" class="modal-close-btn">&times;</button>
+            <h2 id="modal-title"></h2>
+            <p id="modal-description"></p>
+        </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r134/three.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.fog.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
