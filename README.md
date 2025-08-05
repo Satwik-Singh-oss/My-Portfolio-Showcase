@@ -33,7 +33,7 @@
   <i>Click on any project card to see the live demo.</i>
 </p>
 
-<a href="https://satwik-singh-oss.github.io/My-Portfolio-Showcase/" target="_blank">
+<a href="https://satwik-singh-oss.github.io/My-Portfolio-Showcase/VCVX/" target="_blank">
   <img src="previews/portfolio-preview.svg" alt="Creative Developer Portfolio Preview">
 </a>
 <br>
