@@ -4,12 +4,30 @@
 
 <br>
 
+<div align="center">
+  <a href="https://github.com/Satwik-Singh-oss">
+    <img src="https://github-readme-stats.vercel.app/api?username=Satwik-Singh-oss&show_icons=true&theme=github_dark&hide_border=true&count_private=true&include_all_commits=true" alt="Kamlendu's GitHub Stats" />
+  </a>
+  &nbsp;&nbsp;&nbsp;
+  <a href="https://github.com/Satwik-Singh-oss">
+    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Satwik-Singh-oss&layout=compact&theme=github_dark&hide_border=true" alt="Top Languages" />
+  </a>
+</div>
+
+<br>
+
 <table width="100%">
   <tr>
-    <td valign="top" width="60%">
+    <td valign="top">
       <h3 align="left">👨‍💻 About Me</h3>
       <p align="left">
-        A professional and passionate developer showcasing a collection of interactive, high-performance web components and full-stack applications. I specialize in turning complex business requirements into elegant, user-friendly solutions with a strong focus on modern JavaScript, advanced CSS, and backend integration.
+        A professional and passionate developer with a strong focus on turning complex business requirements into elegant, user-friendly solutions. I love building interactive, high-performance web applications from the ground up.
+        <br/><br/>
+        - 🔭 I’m currently working on mastering advanced Three.js and WebGL animations.
+        <br/>
+        - 🌱 I’m currently learning about serverless architectures and cloud functions.
+        <br/>
+        - 💬 Ask me about anything related to React, JavaScript, and modern front-end development.
       </p>
     </td>
     <td valign="top" width="40%">
@@ -33,22 +51,23 @@
   <i>Click on any project card to see the live demo.</i>
 </p>
 
-<a href="https://satwik-singh-oss.github.io/My-Portfolio-Showcase/VCVX/" target="_blank">
-  <img src="previews/portfolio-preview.svg" alt="VCVX Interactive Showcase Preview">
-</a>
-<br>
-
-<a href="https://satwik-singh-oss.github.io/My-Portfolio-Showcase/EZScope3-Showcase/" target="_blank">
-  <img src="previews/ezscope3-preview.svg" alt="EZScope3 Project Preview">
-</a>
-<br>
-<a href="https://satwik-singh-oss.github.io/My-Portfolio-Showcase/aum-foundation-project/" target="_blank">
-  <img src="previews/aum-preview.svg" alt="AUM Foundation Project Preview">
-</a>
-<br>
-<a href="https://satwik-singh-oss.github.io/My-Portfolio-Showcase/BFF-Showcase/" target="_blank">
-  <img src="previews/bff-preview.svg" alt="BFF Project Preview">
-</a>
+<div align="center">
+    <a href="https://satwik-singh-oss.github.io/My-Portfolio-Showcase/VCVX/" target="_blank">
+      <img src="previews/portfolio-preview.svg" alt="VCVX Interactive Showcase Preview">
+    </a>
+    <br>
+    <a href="https://satwik-singh-oss.github.io/My-Portfolio-Showcase/EZScope3-Showcase/" target="_blank">
+      <img src="previews/ezscope3-preview.svg" alt="EZScope3 Project Preview">
+    </a>
+    <br>
+    <a href="https://satwik-singh-oss.github.io/My-Portfolio-Showcase/aum-foundation-project/" target="_blank">
+      <img src="previews/aum-preview.svg" alt="AUM Foundation Project Preview">
+    </a>
+    <br>
+    <a href="https://satwik-singh-oss.github.io/My-Portfolio-Showcase/BFF-Showcase/" target="_blank">
+      <img src="previews/bff-preview.svg" alt="BFF Project Preview">
+    </a>
+</div>
 
 <br>
 
