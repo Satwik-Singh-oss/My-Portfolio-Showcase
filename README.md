@@ -34,7 +34,7 @@
 </p>
 
 <a href="https://satwik-singh-oss.github.io/My-Portfolio-Showcase/VCVX/" target="_blank">
-  <img src="previews/portfolio-preview.svg" alt="Creative Developer Portfolio Preview">
+  <img src="previews/portfolio-preview.svg" alt="VCVX Interactive Showcase Preview">
 </a>
 <br>
 
