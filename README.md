@@ -33,6 +33,11 @@
   <i>Click on any project card to see the live demo.</i>
 </p>
 
+<a href="https://satwik-singh-oss.github.io/My-Portfolio-Showcase/" target="_blank">
+  <img src="previews/portfolio-preview.svg" alt="Creative Developer Portfolio Preview">
+</a>
+<br>
+
 <a href="https://satwik-singh-oss.github.io/My-Portfolio-Showcase/EZScope3-Showcase/" target="_blank">
   <img src="previews/ezscope3-preview.svg" alt="EZScope3 Project Preview">
 </a>
